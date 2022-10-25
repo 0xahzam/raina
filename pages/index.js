@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Flex, Text, Divider } from '@chakra-ui/react'
 
+
 export default function Home() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Home() {
               I write. welcome to my store house of words. find me <a href = "https://www.instagram.com/rayyhoney/" style={{textDecoration : "1px underline"}}>here</a>
               </Text>
               </Flex>
-            <Divider marginTop={"21px"} color={"#CCCBC5"}/>
+            <Divider marginTop={"21px"} color={"black"} stroke={"1px"}/>
           </Flex>
           
           <Flex flexDir={"column"} marginTop={"33px"} gap={"33px"}>

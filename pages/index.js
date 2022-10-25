@@ -10,7 +10,7 @@ export default function Home() {
     <div className='main'>
 
       <Flex justifyContent={"center"}>
-        <Flex flexDirection={"column"} marginTop={"103px"} width={{base:"280px",md:"386px"}}>
+        <Flex flexDirection={"column"} marginTop={{base:"40px",md:"80px"}} marginBottom = {{base:"40px",md:"40px"}} width={{base:"280px",md:"386px"}}>
           
           <Flex flexDirection={"column"}>
             <Text fontSize={"24px"} fontWeight={"500"}>Raina Tyagi.</Text>

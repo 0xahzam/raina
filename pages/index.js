@@ -3,7 +3,12 @@ import { Flex, Text, Divider } from '@chakra-ui/react'
 
 export default function Home() {
   return (
+    <>
+      <head>
+      <title>Raina Tyagi</title>
+      </head>
     <div className='main'>
+
       <Flex justifyContent={"center"}>
         <Flex flexDirection={"column"} marginTop={"103px"} width={{base:"280px",md:"386px"}}>
           
@@ -55,5 +60,6 @@ export default function Home() {
         </Flex>
       </Flex>
     </div>
+    </>
   )
 }
